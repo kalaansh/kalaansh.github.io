@@ -50,8 +50,8 @@ const PRODUCTS = [
     tagline: "Shubh Laabh made using resin for sticking on wall",
     category: "Home décor",
     media: [
-      { type: "image", src: "assets/products/Resin Shubh Laab bg1.jpg" },
-      { type: "image", src: "assets/products/Resin Shubh Laab bg2.jpg" },
+      { type: "image", src: "assets/products/Resin Shubh Laabh bg1.jpg" },
+      { type: "image", src: "assets/products/Resin Shubh Laabh bg2.jpg" },
     ],
   },
   {
