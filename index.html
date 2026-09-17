@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kalaansh — Where art meets home</title>
+<meta name="description" content="Kalaansh — handmade home décor, resin art and gifting pieces by Pooja Mantri." />
+<link rel="icon" href="assets/logo.png" />
+
+<meta property="og:title" content="Kalaansh — Where art meets home" />
+<meta property="og:description" content="Handmade home décor, resin art and gifting pieces." />
+<meta property="og:image" content="assets/logo.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300;1,9..144,400&family=Karla:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<a class="skip" href="#collection">Skip to the collection</a>
+
+<header class="hero" id="top">
+  <div class="hero__inner">
+    <img class="hero__logo" src="assets/logo.png" alt="Kalaansh logo"
+         onerror="this.remove()" />
+    <h1 class="hero__word">Kalaansh</h1>
+    <p class="hero__sub">Where art meets home</p>
+
+    <div class="rule" aria-hidden="true"><span></span><i></i><span></span></div>
+
+    <p class="hero__intro" id="siteIntro"></p>
+    <p class="hero__by">A small studio by <strong id="founderName"></strong></p>
+
+    <a class="hero__scroll" href="#collection">See the collection</a>
+  </div>
+</header>
+
+<main>
+  <section id="collection" class="collection">
+    <div class="collection__head">
+      <h2>The collection</h2>
+      <p id="enquiryNote" class="collection__note"></p>
+    </div>
+
+    <nav class="filters" id="filters" aria-label="Filter by category"></nav>
+
+    <div class="grid" id="grid"></div>
+
+    <p class="empty" id="empty" hidden>Nothing in this category just yet. Try another one.</p>
+  </section>
+</main>
+
+<footer class="contact" id="contact">
+  <h2>Say hello</h2>
+  <p class="contact__line">
+    Questions about a piece, a custom order or a bulk gifting enquiry — either of these reaches me directly.
+  </p>
+  <ul class="contact__list">
+    <li><span>Instagram</span><a id="igLink" href="#" target="_blank" rel="noopener"></a></li>
+    <li><span>Email</span><a id="mailLink" href="#"></a></li>
+  </ul>
+  <p class="contact__foot">Kalaansh · handmade in India by <span id="founderFoot"></span></p>
+</footer>
+
+<!-- Product viewer -->
+<div class="viewer" id="viewer" role="dialog" aria-modal="true" aria-labelledby="vTitle" hidden>
+  <div class="viewer__scrim" data-close></div>
+  <div class="viewer__panel">
+    <button class="viewer__close" id="vClose" aria-label="Close">&times;</button>
+
+    <div class="viewer__stage">
+      <button class="nav nav--prev" id="vPrev" aria-label="Previous">&#8249;</button>
+      <div class="viewer__media" id="vMedia"></div>
+      <button class="nav nav--next" id="vNext" aria-label="Next">&#8250;</button>
+    </div>
+
+    <div class="viewer__thumbs" id="vThumbs"></div>
+
+    <div class="viewer__text">
+      <p class="viewer__cat" id="vCat"></p>
+      <h3 id="vTitle"></h3>
+      <p class="viewer__tag" id="vTag"></p>
+      <a class="btn" id="vDm" href="#" target="_blank" rel="noopener">Ask about this on Instagram</a>
+    </div>
+  </div>
+</div>
+
+<script src="products.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
