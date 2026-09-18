@@ -62,4 +62,36 @@ const PRODUCTS = [
       { type: "image", src: "assets/products/Pink Floral Toran.jpg" },
     ],
   },
+  {
+    name: "Brocade 4 Diya Table Runner",
+    tagline: "Table runner made using brocade with a set of 4 tealight candle holders",
+    category: "Home décor",
+    media: [
+      { type: "image", src: "assets/products/Brocade 4 Diya Table Runner.jpg" },
+    ],
+  },
+  {
+    name: "Floral Toran",
+    tagline: "Beautiful hanging floral toran",
+    category: "Home décor",
+    media: [
+      { type: "image", src: "assets/products/Floral Toran.jpg" },
+    ],
+  },
+  {
+    name: "Hanging Floral Shubh Laabh",
+    tagline: "Exquisite hanging floral shubh laabh",
+    category: "Home décor",
+    media: [
+      { type: "image", src: "assets/products/Hanging Floral Shubh Laabh.jpg" },
+    ],
+  },
+  {
+    name: "Keychains",
+    tagline: "Assorted keychains for every alphabet",
+    category: "Resin Art",
+    media: [
+      { type: "image", src: "assets/products/Keychains.jpg" },
+    ],
+  },
 ];
