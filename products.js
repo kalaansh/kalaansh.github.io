@@ -27,7 +27,7 @@ const PRODUCTS = [
   {
     name: "Beach Theme Clock",
     tagline: "A serene beach-inspired resin clock",
-    category: "Resin art",
+    category: "Resin Art",
     featured: true, // optional — gives the piece a larger tile
     media: [
       { type: "image", src: "assets/products/Beach Theme Clock.jpg", alt: "NA" },
@@ -92,6 +92,41 @@ const PRODUCTS = [
     category: "Resin Art",
     media: [
       { type: "image", src: "assets/products/Keychains.jpg" },
+    ],
+  },
+  {
+    name: "Marble Effect Clock",
+    tagline: "Luxurious black and golden marble effect clock",
+    category: "Resin Art",
+    media: [
+      { type: "image", src: "assets/products/Marble Effect Clock 1.jpg" },
+      { type: "image", src: "assets/products/Marble Effect Clock 2.jpg" },
+    ],
+  },
+  {
+    name: "Peacock Table Runner",
+    tagline: "Peacock themed table runner with a tealight candle holder",
+    category: "Home décor",
+    media: [
+      { type: "image", src: "assets/products/Peacock Table Runner 1.jpg" },
+      { type: "image", src: "assets/products/Peacock Table Runner 2.jpg" },
+    ],
+  },
+  {
+    name: "Resin Tealight Candle Set",
+    tagline: "A set of 2 resin tealight candle holders",
+    category: "Home décor",
+    media: [
+      { type: "image", src: "assets/products/Resin Tealight Candle Set 1.jpg" },
+      { type: "image", src: "assets/products/Resin Tealight Candle Set 2.jpg" },
+    ],
+  },
+  {
+    name: "Shreenath Ji Toran",
+    tagline: "Hanging Shreenath Ji Toran",
+    category: "Home décor",
+    media: [
+      { type: "image", src: "assets/products/Shreenath Ji Toran.jpg" },
     ],
   },
 ];
