@@ -26,11 +26,11 @@ const SITE = {
 const PRODUCTS = [
   {
     name: "Beach Theme Clock",
-    tagline: "A serene beach-inspired resin clock, with ocean waves, sandy textures and delicate seashells.",
+    tagline: "A serene beach-inspired resin clock with ocean waves, sandy textures and delicate seashells.",
     category: "Resin Art",
     featured: false, // optional — gives the piece a larger tile
     media: [
-      { type: "image", src: "assets/products/Beach Theme Clock.jpg", alt: "NA" },
+      { type: "image", src: "assets/products/Beach Theme Clock.jpg", alt: "Beach themed resin clock with seashells" },
       // { type: "image", src: "assets/products/sample-1b.jpg" },
       // A video is added exactly like this — uncomment once your file is in place:
       // { type: "video", src: "assets/products/sample-1.mp4" },
@@ -123,7 +123,7 @@ const PRODUCTS = [
   },
   {
     name: "Shreenath Ji Toran",
-    tagline: "A traditional Shreenath Ji toran, thoughtgully designed to enhance your home décor.",
+    tagline: "A traditional Shreenath Ji toran, thoughtfully designed to enhance your home décor.",
     category: "Toran",
     media: [
       { type: "image", src: "assets/products/Shreenath Ji Toran.jpg" },
@@ -150,9 +150,9 @@ const PRODUCTS = [
   {
     name: "Shubh Laabh and Diya set",
     tagline: "A traditional Shubh Laabh set with an elegant resin diya, perfect for your entrance, pooja space or festive décor.",
-    category: "Shubh Laabh", "Diya",
+    categories: ["Shubh Laabh", "Diya"],
     media: [
-      { type: "image", src: "assets/products/Shreenath Ji Toran.jpg" },
+      { type: "image", src: "assets/products/Shubh Laabh and Diya.jpg" },
     ],
   },
 ];
