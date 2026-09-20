@@ -150,7 +150,7 @@ const PRODUCTS = [
   {
     name: "Shubh Laabh and Diya set",
     tagline: "A traditional Shubh Laabh set with an elegant resin diya, perfect for your entrance, pooja space or festive décor.",
-    categories: ["Shubh Laabh", "Diya"],
+    categories: "Shubh Laabh",
     media: [
       { type: "image", src: "assets/products/Shubh Laabh and Diya.jpg" },
     ],
