@@ -158,7 +158,7 @@ const PRODUCTS = [
   {
     name: "Pearl White Shubh Laabh",
     tagline: "Shubh Laabh décor piece with floral and pearl detailing, made to bring a traditional element to your home",
-    category: "Diya",
+    category: "Shubh Laabh",
     media: [
       { type: "image", src: "assets/products/Pearl Shubh Laabh 1.jpeg" },
       { type: "image", src: "assets/products/Pearl Shubh Laabh 2.jpeg" },
