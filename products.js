@@ -20,13 +20,13 @@ const SITE = {
     "Handmade décor, resin art and gifting pieces. " +
     "Every piece is poured, set and finished by hand, so no two are ever identical.",
   // Shown under the collection so people know how to ask about a piece.
-  enquiryNote: "Prices and made-to-order options are shared on Instagram — send a DM with the name of the piece.",
+  enquiryNote: "For pricing, custom orders or availability, drop us a DM on Instagram with the piece you’re interested in.",
 };
 
 const PRODUCTS = [
   {
     name: "Beach Theme Clock",
-    tagline: "A serene beach-inspired resin clock with ocean waves, sandy textures and delicate seashells.",
+    tagline: "Serene beach-inspired resin clock with ocean waves, sandy textures and delicate seashells.",
     category: "Resin Art",
     featured: false, // optional — gives the piece a larger tile
     media: [
@@ -38,7 +38,7 @@ const PRODUCTS = [
   },
   {
     name: "Pooja Thali",
-    tagline: "A beautifully handcrafted morpankh pooja thali, perfect for your festive and everyday rituals.",
+    tagline: "Beautifully handcrafted morpankh pooja thali, perfect for your festive and everyday rituals.",
     category: "Resin Art",
     media: [
       { type: "image", src: "assets/products/Pooja Thali Large.jpg" },
@@ -56,7 +56,7 @@ const PRODUCTS = [
   },
   {
     name: "Pink Floral Toran",
-    tagline: "A beautiful pink floral toran, handcrafted to add a soft and festive charm to your doorway.",
+    tagline: "Beautiful pink floral toran, crafted to add a soft and festive charm to your doorway.",
     category: "Toran",
     media: [
       { type: "image", src: "assets/products/Pink Floral Toran.jpg" },
@@ -64,7 +64,7 @@ const PRODUCTS = [
   },
   {
     name: "Brocade 4 Diya Table Runner",
-    tagline: "A handcrafted table runner featuring a brocade design, paired with a set of four tealight candle holders for a festive setup.",
+    tagline: "Handcrafted table runner featuring a brocade design, paired with a set of four tealight candle holders for a festive setup.",
     category: "Table Runner",
     media: [
       { type: "image", src: "assets/products/Brocade 4 Diya Table Runner.jpg" },
@@ -72,7 +72,7 @@ const PRODUCTS = [
   },
   {
     name: "Floral Toran",
-    tagline: "A vibrant floral toran designed to bring colour, charm and a festive touch to your home entrance.",
+    tagline: "Vibrant floral toran designed to bring colour, charm and a festive touch to your home entrance.",
     category: "Toran",
     media: [
       { type: "image", src: "assets/products/Floral Toran.jpg" },
@@ -80,7 +80,7 @@ const PRODUCTS = [
   },
   {
     name: "Hanging Floral Shubh Laabh",
-    tagline: "A graceful hanging Shubh Laabh décor adorned with delicate flowers, perfect for adding a festive touch to your home.",
+    tagline: "Graceful hanging Shubh Laabh décor adorned with delicate flowers, perfect for adding a festive touch to your home.",
     category: "Shubh Laabh",
     media: [
       { type: "image", src: "assets/products/Hanging Floral Shubh Laabh.jpg" },
@@ -96,7 +96,7 @@ const PRODUCTS = [
   },
   {
     name: "Marble Effect Clock",
-    tagline: "A classic resin clock with an elegant black-and-gold marble effect, bringing a touch of luxury to your space.",
+    tagline: "Classic resin clock with an elegant black-and-gold marble effect, bringing a touch of luxury to your space.",
     category: "Resin Art",
     media: [
       { type: "image", src: "assets/products/Marble Effect Clock 1.jpg" },
@@ -105,7 +105,7 @@ const PRODUCTS = [
   },
   {
     name: "Peacock Table Runner",
-    tagline: "A charming peacock-inspired table runner with delicate detailing and tealight candle holder, perfect for adding a festive touch to your home.",
+    tagline: "Peacock-themed table runner with matching tealight candle holders, designed to sit beautifully at the centre of your table",
     category: "Table Runner",
     media: [
       { type: "image", src: "assets/products/Peacock Table Runner 1.jpg" },
@@ -123,7 +123,7 @@ const PRODUCTS = [
   },
   {
     name: "Shreenath Ji Toran",
-    tagline: "A traditional Shreenath Ji toran, thoughtfully designed to enhance your home décor.",
+    tagline: "Traditional Shreenath Ji toran, thoughtfully designed to complement your doorway beautifully.",
     category: "Toran",
     media: [
       { type: "image", src: "assets/products/Shreenath Ji Toran.jpg" },
@@ -140,7 +140,7 @@ const PRODUCTS = [
   },
   {
     name: "Floral Resin Diya",
-    tagline: "A simple and elegant resin tealight candle holder, perfect for everyday décor or festive occasions.",
+    tagline: "Simple and elegant resin tealight candle holder, perfect for everyday décor or festive occasions.",
     category: "Diya",
     media: [
       { type: "image", src: "assets/products/Single Diya 1.jpg" },
@@ -149,10 +149,19 @@ const PRODUCTS = [
   },
   {
     name: "Shubh Laabh and Diya set",
-    tagline: "A traditional Shubh Laabh set with an elegant resin diya, perfect for your entrance, pooja space or festive décor.",
+    tagline: "Traditional Shubh Laabh set with an elegant resin diya, perfect for your entrance, pooja space or festive décor.",
     categories: "Shubh Laabh",
     media: [
       { type: "image", src: "assets/products/Shubh Laabh and Diya.jpeg" },
+    ],
+  },
+  {
+    name: "Pearl White Shubh Laabh",
+    tagline: "Shubh Laabh décor piece with floral and pearl detailing, made to bring a traditional element to your home",
+    category: "Diya",
+    media: [
+      { type: "image", src: "assets/products/Pearl Shubh Laabh 1.jpeg" },
+      { type: "image", src: "assets/products/Pearl Shubh Laabh 2.jpeg" },
     ],
   },
 ];
