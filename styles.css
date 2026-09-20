@@ -42,7 +42,7 @@ h1,h2,h3{font-family:"Fraunces",Georgia,serif;font-weight:400;margin:0;line-heig
 }
 .hero__inner{max-width:52ch}
 .hero__logo{
-  width:clamp(110px,14vw,160px);
+  width:clamp(84px,11vw,124px);
   height:auto;margin:0 auto 26px;
   mix-blend-mode:multiply;
 }
