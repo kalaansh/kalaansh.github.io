@@ -164,4 +164,21 @@ const PRODUCTS = [
       { type: "image", src: "assets/products/Pearl Shubh Laabh 2.jpeg" },
     ],
   },
+  {
+    name: "Floral Shubh Laabh Toran",
+    tagline: "Handcrafted floral Shubh Laabh toran, bringing together vibrant blooms, traditional detailing and a beautiful statement for your doorway.",
+    category: "Toran",
+    media: [
+      { type: "image", src: "assets/products/Floral Shubh Laabh Toran.jpeg" },
+    ],
+  },
+  {
+    name: "Floral Table Runner with Tealight",
+    tagline: "Richly detailed floral table runner, with roses and tealight holders beautifully worked into the design.",
+    category: "Table Runner",
+    media: [
+      { type: "image", src: "assets/products/Floral Table Runner 1.jpeg" },
+      { type: "image", src: "assets/products/Floral Table Runner 2.jpeg" },
+    ],
+  },
 ];
