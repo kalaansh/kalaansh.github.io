@@ -181,4 +181,39 @@ const PRODUCTS = [
       { type: "image", src: "assets/products/Floral Table Runner 2.jpeg" },
     ],
   },
+  {
+    name: "24 inch Rangoli",
+    tagline: "Handcrafted 24-inch MDF rangoli with a central tealight holder for festive decor.",
+    category: "Rangoli",
+    media: [
+      { type: "image", src: "assets/products/24inch_rangoli.jpeg" },
+    ],
+  },
+  {
+    name: "Colourful Shubh Laabh",
+    tagline: "Shubh Labh set with matching tealight holder, available in multiple vibrant colours for festive entrances.",
+    category: "Shubh Laabh",
+    media: [
+      { type: "image", src: "assets/products/colour_shubh_laabh1.jpeg" },
+       { type: "image", src: "assets/products/colour_shubh_laabh2.jpeg" },
+       { type: "image", src: "assets/products/colour_shubh_laabh3.jpeg" },
+       { type: "image", src: "assets/products/colour_shubh_laabh4.jpeg" },
+    ],
+  },
+  {
+    name: "Gau Shubh Laabh",
+    tagline: "Cow and calf shubh laabh wall hangings for an auspicious entrance.",
+    category: "Shubh Laabh",
+    media: [
+      { type: "image", src: "assets/products/gau_shubh_laabh.jpeg" },
+    ],
+  },
+  {
+    name: "Krishna theme floral toran",
+    tagline: "Krishna themed pink floral and peacock toran with shubh Labh hangings",
+    category: "Toran",
+    media: [
+      { type: "image", src: "assets/products/krishna_theme_floral_toran.jpeg" },
+    ],
+  },
 ];
