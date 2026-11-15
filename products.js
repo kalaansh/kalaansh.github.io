@@ -310,7 +310,7 @@ const PRODUCTS = [
   },
   {
     name: "Red and White Toran",
-    tagline: "White mogra and red rose floral toran with shubh laabh hangings",
+    tagline: "White mogra and red rose floral toran with shubh laabh hangings.",
     category: "Toran",
     media: [
       { type: "image", src: "assets/products/red_and_white_toran.jpeg" },
@@ -333,6 +333,52 @@ const PRODUCTS = [
       { type: "image", src: "assets/products/resin_shubh_laabh1.jpeg" },
       { type: "image", src: "assets/products/resin_shubh_laabh2.jpeg" },
        { type: "image", src: "assets/products/resin_shubh_laabh3.jpeg" },
+    ],
+  },
+  {
+    name: "Peach Resin Tealight Candle",
+    tagline: "Peach resin tealight candle holders embellished with gold leaves and pearl accents.",
+    category: "Diya/Tealight Candle",
+    media: [
+      { type: "image", src: "assets/products/peach_resin_tealight_candle1.jpeg" },
+      { type: "image", src: "assets/products/peach_resin_tealight_candle2.jpeg" },
+      { type: "image", src: "assets/products/peach_resin_tealight_candle3.jpeg" },
+    ],
+  },
+  {
+    name: "Resin Lotus Pooja Thali",
+    tagline: "Resin pooja thali featuring lotus designs, a central swastika, and attached diya and katoris for auspicious rituals.",
+    category: "Pooja Thali",
+    media: [
+      { type: "image", src: "assets/products/resin_lotus_pooja_thali1.jpeg" },
+      { type: "image", src: "assets/products/resin_lotus_pooja_thali2.jpeg" },
+    ],
+  },
+  {
+    name: "Resin Pen Stand",
+    tagline: "Peach and gold resin pen stand to brighten up your desk.",
+    category: "Resin Art",
+    media: [
+      { type: "image", src: "assets/products/resin_pen_stand1.jpeg" },
+      { type: "image", src: "assets/products/resin_pen_stand2.jpeg" },
+    ],
+  },
+  {
+    name: "Rose Toran",
+    tagline: "Toran adorned with deep red roses and delicate pearl tassels for a rich festive entrance.",
+    category: "Toran",
+    media: [
+      { type: "image", src: "assets/products/rose_toran1.jpeg" },
+      { type: "image", src: "assets/products/rose_toran2.jpeg" },
+    ],
+  },
+  {
+    name: "Warm Shade Floral Toran",
+    tagline: "Warm pastel floral toran for a soft and welcoming entrance.",
+    price: "Rs. 111",
+    category: "Toran",
+    media: [
+      { type: "image", src: "assets/products/warm_shade_floral_toran.jpeg" },
     ],
   },
 ];
