@@ -115,7 +115,7 @@ const PRODUCTS = [
   {
     name: "Resin Diya Set",
     tagline: "A pair of handcrafted resin tealight candle holders, adding a warm and elegant glow to your table.",
-    category: "Diya",
+    category: "Diya/Tealight Candle",
     media: [
       { type: "image", src: "assets/products/Resin Tealight Candle Set 1.jpg" },
       { type: "image", src: "assets/products/Resin Tealight Candle Set 2.jpg" },
@@ -141,7 +141,7 @@ const PRODUCTS = [
   {
     name: "Floral Resin Diya",
     tagline: "Simple and elegant resin tealight candle holder, perfect for everyday décor or festive occasions.",
-    category: "Diya",
+    category: "Diya/Tealight Candle",
     media: [
       { type: "image", src: "assets/products/Single Diya 1.jpg" },
       { type: "image", src: "assets/products/Single Diya 2.jpg" },
@@ -209,7 +209,7 @@ const PRODUCTS = [
     ],
   },
   {
-    name: "Krishna theme floral toran",
+    name: "Krishna Theme Floral Toran",
     tagline: "Krishna themed pink floral and peacock toran with shubh Labh hangings",
     category: "Toran",
     media: [
@@ -217,7 +217,7 @@ const PRODUCTS = [
     ],
   },
   {
-    name: "Pearl floral shubh laabh",
+    name: "Pearl Floral Shubh Laabh",
     tagline: "Resin shubh laabh featuring delicate pearls and florals",
     category: "Shubh Laabh",
     media: [
@@ -235,12 +235,104 @@ const PRODUCTS = [
     ],
   },
   {
-    name: "Rose theme tealight candle",
+    name: "Rose Theme Tealight Candle",
     tagline: "Red and white rose tealight candle holders to add a warm, festive glow to any space.",
-    category: "Diya",
+    category: "Diya/Tealight Candle",
     media: [
       { type: "image", src: "assets/products/rose_theme_tealight_candle_1.jpeg" },
        { type: "image", src: "assets/products/rose_theme_tealight_candle_2.jpeg" },
+    ],
+  },
+  {
+    name: "3ft Toran",
+    tagline: "3 foot Krishna themed toran adorned with elephant motifs, lotus accents, and hanging bells",
+    category: "Toran",
+    media: [
+      { type: "image", src: "assets/products/3ft_toran.jpeg" },
+    ],
+  },
+  {
+    name: "Brown Resin Shubh Laabh",
+    tagline: "Brown resin shubh laabh adorned with pearls and florals.",
+    category: "Shubh Laabh",
+    media: [
+      { type: "image", src: "assets/products/brown_resin_shubh_laabh.jpeg" },
+    ],
+  },
+  {
+    name: "Colourful Ghungroo Hangings",
+    tagline: "Colourful hanging toran with ghungroos that chime with every soft breeze.",
+    category: "Toran",
+    media: [
+      { type: "image", src: "assets/products/colourful_ghungroo_hangings.jpeg" },
+    ],
+  },
+  {
+    name: "Evil Eye Hangings",
+    tagline: "Evil eye and lotus wall hangings for positive vibes.",
+    category: "Toran",
+    media: [
+      { type: "image", src: "assets/products/evil_eye_hangings.jpeg" },
+    ],
+  },
+  {
+    name: "Lotus Shubh Laabh",
+    tagline: "Red and gold lotus shubh laabh for an auspicious entrance.",
+    category: "Shubh Laabh",
+    media: [
+      { type: "image", src: "assets/products/lotus_shubh_laabh.jpeg" },
+    ],
+  },
+  {
+    name: "Lotus Tealight Cangle",
+    tagline: "Handcrafted pink and lavender lotus tealight holder accented with delicate pearls for a charming festive glow.",
+    category: "Diya/Tealight Candle",
+    media: [
+      { type: "image", src: "assets/products/lotus_tealight_candle1.jpeg" },
+      { type: "image", src: "assets/products/lotus_tealight_candle2.jpeg" },
+    ],
+  },
+  {
+    name: "Peacock Tealight Candle Set",
+    tagline: "Peacock themed floral tealight holder set with red and white roses and pearl beaded rings.",
+    category: "Diya/Tealight Candle",
+    media: [
+      { type: "image", src: "assets/products/peacock_theme_tealight_candle_set.jpeg" },
+    ],
+  },
+  {
+    name: "Pearl Blue Toran",
+    tagline: "Pearl blue toran featuring cow motifs, evil eye accents, lotus work, and hanging bells.",
+    category: "Toran",
+    media: [
+      { type: "image", src: "assets/products/pearl_blue_toran.jpeg" },
+    ],
+  },
+  {
+    name: "Red and White Toran",
+    tagline: "White mogra and red rose floral toran with shubh laabh hangings",
+    category: "Toran",
+    media: [
+      { type: "image", src: "assets/products/red_and_white_toran.jpeg" },
+    ],
+  },
+  {
+    name: "Resin Cutlery Stand",
+    tagline: "Purple and gold resin cutlery and napkin holder to elevate your dining table.",
+    category: "Resin Art",
+    media: [
+      { type: "image", src: "assets/products/resin_cutlery_stand1.jpeg" },
+      { type: "image", src: "assets/products/resin_cutlery_stand2.jpeg" },
+    ],
+  },
+  {
+    name: "Resin Shubh Laabh",
+    tagline: "Pearl white resin shubh laabh, available in multiple designs for an elegant entrance.",
+    category: "Shubh Laabh",
+    media: [
+      { type: "image", src: "assets/products/resin_shubh_laabh1.jpeg" },
+      { type: "image", src: "assets/products/resin_shubh_laabh2.jpeg" },
+       { type: "image", src: "assets/products/resin_shubh_laabh3.jpeg" },
     ],
   },
 ];
