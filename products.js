@@ -39,7 +39,7 @@ const PRODUCTS = [
   {
     name: "Pooja Thali",
     tagline: "Beautifully handcrafted morpankh pooja thali, perfect for your festive and everyday rituals.",
-    category: "Resin Art",
+    category: "Pooja Thali",
     media: [
       { type: "image", src: "assets/products/Pooja Thali Large.jpg" },
       { type: "image", src: "assets/products/Pooja Thali Small.jpg" },
@@ -214,6 +214,33 @@ const PRODUCTS = [
     category: "Toran",
     media: [
       { type: "image", src: "assets/products/krishna_theme_floral_toran.jpeg" },
+    ],
+  },
+  {
+    name: "Pearl floral shubh laabh",
+    tagline: "Resin shubh laabh featuring delicate pearls and florals",
+    category: "Shubh Laabh",
+    media: [
+      { type: "image", src: "assets/products/pearl_floral_shubhlaabh_1.jpeg" },
+       { type: "image", src: "assets/products/pearl_floral_shubhlaabh_2.jpeg" },
+       { type: "image", src: "assets/products/pearl_floral_shubhlaabh_3.jpeg" },
+    ],
+  },
+  {
+    name: "Assorted Pooja Thali",
+    tagline: "Collection of 8 inch pooja thalis available in multiple colours",
+    category: "Pooja Thali",
+    media: [
+      { type: "image", src: "assets/products/assorted_8inch_pooja_thali.jpeg" },
+    ],
+  },
+  {
+    name: "Rose theme tealight candle",
+    tagline: "Red and white rose tealight candle holders to add a warm, festive glow to any space.",
+    category: "Diya",
+    media: [
+      { type: "image", src: "assets/products/rose_theme_tealight_candle_1.jpeg" },
+       { type: "image", src: "assets/products/rose_theme_tealight_candle_2.jpeg" },
     ],
   },
 ];
