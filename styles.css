@@ -42,7 +42,7 @@ h1,h2,h3{font-family:"Fraunces",Georgia,serif;font-weight:400;margin:0;line-heig
 }
 .hero__inner{max-width:52ch}
 .hero__logo{
-  width:clamp(160px, 20vw, 240px);
+  width:clamp(84px,11vw,124px);
   height:auto;margin:0 auto 26px;
   mix-blend-mode:multiply;
 }
@@ -135,6 +135,7 @@ h1,h2,h3{font-family:"Fraunces",Georgia,serif;font-weight:400;margin:0;line-heig
 }
 .card__name{font-family:"Fraunces",serif;font-size:1.06rem;margin:14px 0 2px}
 .card__tag{color:var(--ink-soft);font-size:.88rem;margin:0}
+.card__price{font-family:"Fraunces",serif;color:var(--plum);font-size:.98rem;margin:6px 0 0}
 .empty{color:var(--ink-soft);font-style:italic}
 
 /* ---------- contact ---------- */
@@ -191,6 +192,8 @@ h1,h2,h3{font-family:"Fraunces",Georgia,serif;font-weight:400;margin:0;line-heig
 .viewer__cat{margin:0;font-size:.8rem;letter-spacing:.07em;color:var(--brass)}
 .viewer__text h3{font-size:clamp(1.4rem,3vw,1.9rem);margin:.3rem 0}
 .viewer__tag{color:var(--ink-soft);margin:0 0 20px;max-width:54ch}
+.viewer__price{font-family:"Fraunces",serif;font-size:1.3rem;color:var(--plum);margin:-8px 0 20px}
+.viewer__price[hidden]{display:none}
 .btn{
   display:inline-block;text-decoration:none;
   background:var(--plum);color:#F7F8F3;
