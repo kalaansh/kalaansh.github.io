@@ -79,9 +79,11 @@
 
       card.appendChild(frame);
       card.insertAdjacentHTML("beforeend",
-        '<p class="card__name"></p><p class="card__tag"></p>');
+        '<p class="card__name"></p><p class="card__tag"></p>' +
+        (p.price ? '<p class="card__price"></p>' : ''));
       card.querySelector(".card__name").textContent = p.name;
       card.querySelector(".card__tag").textContent = p.tagline || "";
+      if (p.price) card.querySelector(".card__price").textContent = p.price;
 
       card.addEventListener("click", function () { openViewer(idx); });
       grid.appendChild(card);
@@ -160,6 +162,8 @@
     $("vCat").textContent = p.category || "";
     $("vTitle").textContent = p.name;
     $("vTag").textContent = p.tagline || "";
+    $("vPrice").textContent = p.price || "";
+    $("vPrice").hidden = !p.price;
     $("vDm").href = dmLink(p);
 
     var many = p.media.length > 1;
